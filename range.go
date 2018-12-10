@@ -12,4 +12,8 @@ func main() {
   for _, age := range ages {
     fmt.Println(age)
   }
+  
+  for name := range ages {
+    fmt.Println(name)
+  }
 }
