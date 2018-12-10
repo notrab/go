@@ -13,8 +13,6 @@ func main() {
   child.Age = 2
   fmt.Println(child.Name, child.Age)
   
-  child2 := Person{}
-  child2.Name = "Bethany"
-  child2.Age = 1
-  fmt.Println(child2.Name, child2.Age)
+  child2 := Person{"Bethany", 1}
+  fmt.Println(child2)
 }
