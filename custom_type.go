@@ -15,4 +15,6 @@ func main() {
 	name := Title("The Matrix")
 	answer := Answer(true)
 	fmt.Println(minutes, hours, weight, name, answer)
+	minutes += 3
+	fmt.Println(minutes)
 }
