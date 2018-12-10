@@ -8,4 +8,8 @@ func main() {
   for name, age := range ages {
     fmt.Println(name, age)
   }
+  
+  for _, age := range ages {
+    fmt.Println(age)
+  }
 }
